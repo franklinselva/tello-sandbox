@@ -17,29 +17,29 @@ path = "src/lib.rs"
 
 [[example]]
 name = "fly"
-path = "examples/fly/main.rs"
+path = "bin/fly/main.rs"
 
 [[example]]
 name = "fly_gamepad"
-path = "examples/fly_gamepad/main.rs"
+path = "bin/fly_gamepad/main.rs"
 
 [[example]]
 name = "command_mode"
-path = "examples/command_mode/main.rs"
+path = "bin/command_mode/main.rs"
 
 [[example]]
 name = "command_mode_tokio"
-path = "examples/command_mode_tokio/main.rs"
+path = "bin/command_mode_tokio/main.rs"
 required-features = ["tokio_async"]
 
 [[example]]
 name = "command_mode_state"
-path = "examples/command_mode_state/main.rs"
+path = "bin/command_mode_state/main.rs"
 required-features = ["tokio_async"]
 
 [[example]]
 name = "command_mode_keyboard"
-path = "examples/command_mode_keyboard/main.rs"
+path = "bin/command_mode_keyboard/main.rs"
 
 [dependencies]
 byteorder = "1.4"
